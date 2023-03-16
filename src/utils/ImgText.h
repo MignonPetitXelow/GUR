@@ -1,17 +1,16 @@
 #ifndef IMGTEXT_H
 #define IMGTEXT_H
 
-#include <string>
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
 #include <iostream>
+#include <fstream>
+#include <vector>
+#include <string>
 
 class ImgText
 {
     public:
         ImgText();
-        char* convertToASCII(const char* path);
+        std::string convertToASCII(const char* path);
 };
 
 #endif 

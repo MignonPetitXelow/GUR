@@ -6,7 +6,7 @@ void PROFILE_Overall::sendOverall(std::string uuid) {
     ImgText imgText;
     API_Callback __apicll;
 
-    char* image = imgText.convertToASCII("test.jpg");
+    std::string image = imgText.convertToASCII("test.jpg");
     std::string name = __apicll.API_CALL(uuid, "playerInfo/nickname");
     std::string signature = __apicll.API_CALL(uuid, "playerInfo/signature");
     std::string level = __apicll.API_CALL(uuid, "playerInfo/level");

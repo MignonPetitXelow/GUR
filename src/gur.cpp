@@ -7,7 +7,7 @@ std::string PATH = "playerInfo/nickname";
 int main(int argc, char *argv[])
 {
     if(argc < 2) {
-        std::cout << "🚫 → Usage: " << argv[0] << " <uid> [path] [--overall]" << std::endl;
+        std::cout << "🚫 → Usage: " << argv[0] << " <uid> [path]" << std::endl;
         return 0;
     }
     UID = argv[1];

@@ -10,7 +10,7 @@ NAME = GUR
 FILE_EXT = 
 BOOT_PARAM = 
 
-FLAGS = -Wall -static-libstdc++ -static-libgcc -std=c++20 -fcoroutines -lcurl -ljsoncpp
+FLAGS = -Wall -static-libstdc++ -static-libgcc -std=c++20 -fcoroutines -lcurl -ljsoncpp -O3
 DANGEROUSFLAGS = -fpermissive
 SUBSRC =
 
